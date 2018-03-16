@@ -1,11 +1,11 @@
 import React from 'react'
 import {render} from 'react-dom'
-
+import './index.scss'
 
 export default class App extends React.Component {
 
   render() {
-    return <div>hi, look at me I work.</div>
+    return <div className="example">hi, look at me I work.</div>
   }
 }
 
